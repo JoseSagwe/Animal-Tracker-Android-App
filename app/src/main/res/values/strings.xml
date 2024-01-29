@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SMART_TOUR_GUIDE_APPLICATION</string>
+
+    <string name="welcome_msg">Welcome User</string>
+
+    <!--    For Sign In Page / Activity-->
+    <string name="go_to_sign_in">Already Have an Account? Sign In</string>
+
+    <!--    For Sign Up Page / Activity-->
+    <string name="go_to_sign_up">Don\'t Have an Account? Sign Up</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
