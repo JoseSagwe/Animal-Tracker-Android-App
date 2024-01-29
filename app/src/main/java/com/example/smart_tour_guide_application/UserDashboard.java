@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class UserDashboard extends AppCompatActivity {
 
-    TextView tv_first_name, tv_last_name, tv_dob, tv_location, tv_mobile, tv_email;
     Button sign_out_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

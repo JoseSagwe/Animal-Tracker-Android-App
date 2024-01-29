@@ -74,11 +74,7 @@ public class Login extends AppCompatActivity {
                     String email = (String) response.get("email");
 
                     //Set Intent Actions:
-                    Intent goToProfile = new Intent(Login.this, UserDashboard.class);
-                    //Pass Values to Profile Activity
-                    goToProfile.putExtra("first_name", first_name);
-                    goToProfile.putExtra("last_name", last_name);
-                    goToProfile.putExtra("email", email);
+                    Intent goToProfile = new Intent(Login.this, Dashboard.class);
                     //Start Activity
                     startActivity(goToProfile);
                     finish();
