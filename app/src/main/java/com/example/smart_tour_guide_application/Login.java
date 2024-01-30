@@ -56,7 +56,7 @@ public class Login extends AppCompatActivity {
 
         RequestQueue queue = Volley.newRequestQueue(Login.this);
 
-        String url = "http://192.168.56.1:8080/smart/user/login";
+        String url = "http://192.168.110.226:8080/smart/user/login";
 
         //Set Parameters;
         HashMap<String, String> params = new HashMap<String, String>();

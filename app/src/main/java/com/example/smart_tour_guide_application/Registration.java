@@ -78,7 +78,7 @@ public class Registration extends AppCompatActivity {
         //Instantiate The request queue
         RequestQueue queue = Volley.newRequestQueue(Registration.this);
         //The URL Posting TO:
-        String url = "http://192.168.56.1:8080/smart/user/register";
+        String url = "http://192.168.110.226:8080/smart/user/register";
 
         //String Request Object
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
