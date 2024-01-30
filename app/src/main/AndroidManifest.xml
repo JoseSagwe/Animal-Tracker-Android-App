@@ -31,7 +31,7 @@
             android:value="YOUR_API_KEY" />
 
         <activity
-            android:name=".UserDashboard"
+            android:name=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".Registration"
@@ -39,10 +39,6 @@
         <activity
             android:name=".Login"
             android:exported="false" />
-        <activity
-            android:name=".MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
